@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
             }
         });
     }else{
-        Response(401 , 'ApiKey Not Found' , 'Unauthorized' , res)
+        Response(401 , 'ApiKey Is Not Found' , 'Unauthorized' , res)
     }
 });
 
