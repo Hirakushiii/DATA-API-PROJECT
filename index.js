@@ -2,23 +2,15 @@ const express = require('express')
 const app = express()
 const port = 3000
 const bodyParser = require('body-parser')
-const path = require('path');
+const Data = require('./data')
 const Response = require('./response')
-const dataPath = path.join(__dirname, 'data.js');
 const ApiKey = 'oeBxM7xJCh65BFCftZF6S6AEJ/fAQ9IEVBWIM6ScR2F1h6MbfAKCSv/xRNxeAKt/A7iThuK34WY9s3m0hdm7wQ=='
 app.use(bodyParser.json())
 
 
 app.get('/', (req, res) => {
     if (req.query.ApiKey === ApiKey) {
-        res.sendFile(dataPath, (err) => {
-            if (err) {
-                console.error(err);
-                res.status(500).send('Gagal mengirim file data.json');
-            } else {
-                console.log('File data.json berhasil dikirim');
-            }
-        });
+        Data(res);
     }else{
         Response(401 , 'ApiKey Is Not Found' , 'Unauthorized' , res)
     }
