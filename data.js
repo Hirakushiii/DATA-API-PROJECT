@@ -8,7 +8,7 @@ const Response = (result) => {
             'Results' : [
                 {
                     "NamaProject" : "Kalkulator V1",
-                    "Bahasa-Digunakan" : "HTML, CSS, JAVASCRIPT",
+                    "BahasaDigunakan" : "HTML, CSS, JAVASCRIPT",
                     "FrameWork" : [""],
                     "Repository" : "https://github.com/Hirakushiii/KALKULATOR-V1",
                     "ShowWebsite" : "https://codepen.io/Kenn212/full/WNmdNxB",
@@ -42,7 +42,7 @@ const Response = (result) => {
                 },
                 {
                     "NamaProject" : "To Do List",
-                    "Bahasa-Digunakan" : "HTML, CSS, JAVASCRIPT",
+                    "BahasaDigunakan" : "HTML, CSS, JAVASCRIPT",
                     "FrameWork" : ["Bootstrap"],
                     "Repository" : "https://github.com/Hirakushiii/TO-DO-LIST-APP-V1",
                     "ShowWebsite" : "https://to-do-list-app-v1-pink.vercel.app/",
@@ -65,7 +65,7 @@ const Response = (result) => {
                         "Tailwind CSS"
                     ],
                     "Repository" : "https://github.com/Hirakushiii/CEK-KHODAM-V1",
-                    "Show-Website" : "cek-khodam-v1-bykenn.vercel.app/",
+                    "ShowWebsite" : "cek-khodam-v1-bykenn.vercel.app/",
                     "TanggalDibuat" : "06-16-2024"
                 },
                 {
